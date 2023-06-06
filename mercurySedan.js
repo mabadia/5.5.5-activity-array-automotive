@@ -7,6 +7,18 @@ console.log(v.make)
 
 
 //After you write the derived Car class, you should test it out.
+class Car extends VehicleModule {
+    constructor(make, model, year, color, mileage){
+        super(make, model, year, color, mileage)
+        this.passenger = 0;
+        this.speed = 0;
+        this.started = false;
+        this.numberOfWheels = 0;
+    }
+    //method goes here 
+
+}
+// add all things that go into the code from chart instructions
 
 //Note: You can code your derived Car class here or make a file named index.js and do it there.
 
